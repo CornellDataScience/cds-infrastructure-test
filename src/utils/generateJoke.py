@@ -6,6 +6,7 @@ class JokeGenerator:
     self.name = name
     self.joke_list = deque()
     # Adding elements to a queue
-    q.append('a')
-    q.append('b')
-    q.append('c')
+    self.joke_list.append("What's 25*2?")
+  
+  def getJoke(self):
+    return self.joke_list.popleft()
