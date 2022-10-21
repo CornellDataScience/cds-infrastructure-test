@@ -14,3 +14,6 @@ class JokeGenerator:
 
   def generateResponse(self, userAns):
     return userAns + " nuts in your mouth! :P"
+  
+  def getName(self):
+    return self.name
